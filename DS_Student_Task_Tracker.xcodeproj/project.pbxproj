@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		539FB0572CDE63C3004E28E7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539FB0562CDE63C3004E28E7 /* WidgetKit.framework */; };
+		539FB0592CDE63C3004E28E7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539FB0582CDE63C3004E28E7 /* SwiftUI.framework */; };
+		539FB0672CDE63C5004E28E7 /* DS_Student_Task_Tracker_WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 539FB0542CDE63C3004E28E7 /* DS_Student_Task_Tracker_WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		539FB0342CDE632E004E28E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539FB01A2CDE632C004E28E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539FB0212CDE632C004E28E7;
+			remoteInfo = DS_Student_Task_Tracker;
+		};
+		539FB03E2CDE632E004E28E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539FB01A2CDE632C004E28E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539FB0212CDE632C004E28E7;
+			remoteInfo = DS_Student_Task_Tracker;
+		};
+		539FB0652CDE63C5004E28E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 539FB01A2CDE632C004E28E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 539FB0532CDE63C3004E28E7;
+			remoteInfo = DS_Student_Task_Tracker_WidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		539FB06C2CDE63C5004E28E7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				539FB0672CDE63C5004E28E7 /* DS_Student_Task_Tracker_WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		539FB0222CDE632C004E28E7 /* DS_Student_Task_Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DS_Student_Task_Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		539FB0332CDE632E004E28E7 /* DS_Student_Task_TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DS_Student_Task_TrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		539FB03D2CDE632E004E28E7 /* DS_Student_Task_TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DS_Student_Task_TrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		539FB0542CDE63C3004E28E7 /* DS_Student_Task_Tracker_WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DS_Student_Task_Tracker_WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		539FB0562CDE63C3004E28E7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		539FB0582CDE63C3004E28E7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		539FB0682CDE63C5004E28E7 /* Exceptions for "DS_Student_Task_Tracker_Widget" folder in "DS_Student_Task_Tracker_WidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 539FB0532CDE63C3004E28E7 /* DS_Student_Task_Tracker_WidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		539FB0242CDE632C004E28E7 /* DS_Student_Task_Tracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DS_Student_Task_Tracker;
+			sourceTree = "<group>";
+		};
+		539FB0362CDE632E004E28E7 /* DS_Student_Task_TrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DS_Student_Task_TrackerTests;
+			sourceTree = "<group>";
+		};
+		539FB0402CDE632E004E28E7 /* DS_Student_Task_TrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DS_Student_Task_TrackerUITests;
+			sourceTree = "<group>";
+		};
+		539FB05A2CDE63C3004E28E7 /* DS_Student_Task_Tracker_Widget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				539FB0682CDE63C5004E28E7 /* Exceptions for "DS_Student_Task_Tracker_Widget" folder in "DS_Student_Task_Tracker_WidgetExtension" target */,
+			);
+			path = DS_Student_Task_Tracker_Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		539FB01F2CDE632C004E28E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539FB0302CDE632E004E28E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539FB03A2CDE632E004E28E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539FB0512CDE63C3004E28E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539FB0592CDE63C3004E28E7 /* SwiftUI.framework in Frameworks */,
+				539FB0572CDE63C3004E28E7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		539FB0192CDE632C004E28E7 = {
+			isa = PBXGroup;
+			children = (
+				539FB0242CDE632C004E28E7 /* DS_Student_Task_Tracker */,
+				539FB0362CDE632E004E28E7 /* DS_Student_Task_TrackerTests */,
+				539FB0402CDE632E004E28E7 /* DS_Student_Task_TrackerUITests */,
+				539FB05A2CDE63C3004E28E7 /* DS_Student_Task_Tracker_Widget */,
+				539FB0552CDE63C3004E28E7 /* Frameworks */,
+				539FB0232CDE632C004E28E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		539FB0232CDE632C004E28E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				539FB0222CDE632C004E28E7 /* DS_Student_Task_Tracker.app */,
+				539FB0332CDE632E004E28E7 /* DS_Student_Task_TrackerTests.xctest */,
+				539FB03D2CDE632E004E28E7 /* DS_Student_Task_TrackerUITests.xctest */,
+				539FB0542CDE63C3004E28E7 /* DS_Student_Task_Tracker_WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		539FB0552CDE63C3004E28E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				539FB0562CDE63C3004E28E7 /* WidgetKit.framework */,
+				539FB0582CDE63C3004E28E7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		539FB0212CDE632C004E28E7 /* DS_Student_Task_Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539FB0472CDE632E004E28E7 /* Build configuration list for PBXNativeTarget "DS_Student_Task_Tracker" */;
+			buildPhases = (
+				539FB01E2CDE632C004E28E7 /* Sources */,
+				539FB01F2CDE632C004E28E7 /* Frameworks */,
+				539FB0202CDE632C004E28E7 /* Resources */,
+				539FB06C2CDE63C5004E28E7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				539FB0662CDE63C5004E28E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				539FB0242CDE632C004E28E7 /* DS_Student_Task_Tracker */,
+			);
+			name = DS_Student_Task_Tracker;
+			packageProductDependencies = (
+			);
+			productName = DS_Student_Task_Tracker;
+			productReference = 539FB0222CDE632C004E28E7 /* DS_Student_Task_Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		539FB0322CDE632E004E28E7 /* DS_Student_Task_TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539FB04A2CDE632E004E28E7 /* Build configuration list for PBXNativeTarget "DS_Student_Task_TrackerTests" */;
+			buildPhases = (
+				539FB02F2CDE632E004E28E7 /* Sources */,
+				539FB0302CDE632E004E28E7 /* Frameworks */,
+				539FB0312CDE632E004E28E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				539FB0352CDE632E004E28E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				539FB0362CDE632E004E28E7 /* DS_Student_Task_TrackerTests */,
+			);
+			name = DS_Student_Task_TrackerTests;
+			packageProductDependencies = (
+			);
+			productName = DS_Student_Task_TrackerTests;
+			productReference = 539FB0332CDE632E004E28E7 /* DS_Student_Task_TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		539FB03C2CDE632E004E28E7 /* DS_Student_Task_TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539FB04D2CDE632E004E28E7 /* Build configuration list for PBXNativeTarget "DS_Student_Task_TrackerUITests" */;
+			buildPhases = (
+				539FB0392CDE632E004E28E7 /* Sources */,
+				539FB03A2CDE632E004E28E7 /* Frameworks */,
+				539FB03B2CDE632E004E28E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				539FB03F2CDE632E004E28E7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				539FB0402CDE632E004E28E7 /* DS_Student_Task_TrackerUITests */,
+			);
+			name = DS_Student_Task_TrackerUITests;
+			packageProductDependencies = (
+			);
+			productName = DS_Student_Task_TrackerUITests;
+			productReference = 539FB03D2CDE632E004E28E7 /* DS_Student_Task_TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		539FB0532CDE63C3004E28E7 /* DS_Student_Task_Tracker_WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539FB0692CDE63C5004E28E7 /* Build configuration list for PBXNativeTarget "DS_Student_Task_Tracker_WidgetExtension" */;
+			buildPhases = (
+				539FB0502CDE63C3004E28E7 /* Sources */,
+				539FB0512CDE63C3004E28E7 /* Frameworks */,
+				539FB0522CDE63C3004E28E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				539FB05A2CDE63C3004E28E7 /* DS_Student_Task_Tracker_Widget */,
+			);
+			name = DS_Student_Task_Tracker_WidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = DS_Student_Task_Tracker_WidgetExtension;
+			productReference = 539FB0542CDE63C3004E28E7 /* DS_Student_Task_Tracker_WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		539FB01A2CDE632C004E28E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					539FB0212CDE632C004E28E7 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					539FB0322CDE632E004E28E7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 539FB0212CDE632C004E28E7;
+					};
+					539FB03C2CDE632E004E28E7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 539FB0212CDE632C004E28E7;
+					};
+					539FB0532CDE63C3004E28E7 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 539FB01D2CDE632C004E28E7 /* Build configuration list for PBXProject "DS_Student_Task_Tracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 539FB0192CDE632C004E28E7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 539FB0232CDE632C004E28E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				539FB0212CDE632C004E28E7 /* DS_Student_Task_Tracker */,
+				539FB0322CDE632E004E28E7 /* DS_Student_Task_TrackerTests */,
+				539FB03C2CDE632E004E28E7 /* DS_Student_Task_TrackerUITests */,
+				539FB0532CDE63C3004E28E7 /* DS_Student_Task_Tracker_WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		539FB0202CDE632C004E28E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539FB0312CDE632E004E28E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539FB03B2CDE632E004E28E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539FB0522CDE63C3004E28E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		539FB01E2CDE632C004E28E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539FB02F2CDE632E004E28E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539FB0392CDE632E004E28E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539FB0502CDE63C3004E28E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		539FB0352CDE632E004E28E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 539FB0212CDE632C004E28E7 /* DS_Student_Task_Tracker */;
+			targetProxy = 539FB0342CDE632E004E28E7 /* PBXContainerItemProxy */;
+		};
+		539FB03F2CDE632E004E28E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 539FB0212CDE632C004E28E7 /* DS_Student_Task_Tracker */;
+			targetProxy = 539FB03E2CDE632E004E28E7 /* PBXContainerItemProxy */;
+		};
+		539FB0662CDE63C5004E28E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 539FB0532CDE63C3004E28E7 /* DS_Student_Task_Tracker_WidgetExtension */;
+			targetProxy = 539FB0652CDE63C5004E28E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		539FB0452CDE632E004E28E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		539FB0462CDE632E004E28E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		539FB0482CDE632E004E28E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DS_Student_Task_Tracker/DS_Student_Task_Tracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DS_Student_Task_Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkotke.DS-Student-Task-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		539FB0492CDE632E004E28E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DS_Student_Task_Tracker/DS_Student_Task_Tracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DS_Student_Task_Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkotke.DS-Student-Task-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		539FB04B2CDE632E004E28E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkotke.DS-Student-Task-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DS_Student_Task_Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DS_Student_Task_Tracker";
+			};
+			name = Debug;
+		};
+		539FB04C2CDE632E004E28E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkotke.DS-Student-Task-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DS_Student_Task_Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DS_Student_Task_Tracker";
+			};
+			name = Release;
+		};
+		539FB04E2CDE632E004E28E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkotke.DS-Student-Task-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DS_Student_Task_Tracker;
+			};
+			name = Debug;
+		};
+		539FB04F2CDE632E004E28E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkotke.DS-Student-Task-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DS_Student_Task_Tracker;
+			};
+			name = Release;
+		};
+		539FB06A2CDE63C5004E28E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DS_Student_Task_Tracker_Widget/DS_Student_Task_Tracker_Widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DS_Student_Task_Tracker_Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DS_Student_Task_Tracker_Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkotke.DS-Student-Task-Tracker.DS-Student-Task-Tracker-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		539FB06B2CDE63C5004E28E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DS_Student_Task_Tracker_Widget/DS_Student_Task_Tracker_Widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DS_Student_Task_Tracker_Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DS_Student_Task_Tracker_Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkotke.DS-Student-Task-Tracker.DS-Student-Task-Tracker-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		539FB01D2CDE632C004E28E7 /* Build configuration list for PBXProject "DS_Student_Task_Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539FB0452CDE632E004E28E7 /* Debug */,
+				539FB0462CDE632E004E28E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539FB0472CDE632E004E28E7 /* Build configuration list for PBXNativeTarget "DS_Student_Task_Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539FB0482CDE632E004E28E7 /* Debug */,
+				539FB0492CDE632E004E28E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539FB04A2CDE632E004E28E7 /* Build configuration list for PBXNativeTarget "DS_Student_Task_TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539FB04B2CDE632E004E28E7 /* Debug */,
+				539FB04C2CDE632E004E28E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539FB04D2CDE632E004E28E7 /* Build configuration list for PBXNativeTarget "DS_Student_Task_TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539FB04E2CDE632E004E28E7 /* Debug */,
+				539FB04F2CDE632E004E28E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539FB0692CDE63C5004E28E7 /* Build configuration list for PBXNativeTarget "DS_Student_Task_Tracker_WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539FB06A2CDE63C5004E28E7 /* Debug */,
+				539FB06B2CDE63C5004E28E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 539FB01A2CDE632C004E28E7 /* Project object */;
+}
