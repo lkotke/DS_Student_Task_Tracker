@@ -1,0 +1,1 @@
+This is a widget for Macs. It serves as a list to remind student workers at Desktop Support of their daily tasks to complete. This is not all-encompassing, it's just a simple reminder to help the students.
