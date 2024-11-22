@@ -44,9 +44,6 @@ struct JobDetail: Identifiable, AppEntity{
             " - Check Unread Incidents In Neurons",
             " - Check For Any New Mail (New Deployments)"
         ]),
-        JobDetail(id: "FTE", tasks: [
-            " - Just Vibe"
-        ]),
     ]
 }
 
